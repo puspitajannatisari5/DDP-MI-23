@@ -1,10 +1,8 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
 using namespace std;
-int main() {
+
+int main()
+{
     string line1, line2, line3, line4, line5;
     
     getline(cin, line1);
@@ -19,6 +17,4 @@ int main() {
     cout<< line4 << endl;
     cout<< line5 << endl;
     
-    return 0;
 }
-    

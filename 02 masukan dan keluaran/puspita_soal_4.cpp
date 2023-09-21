@@ -1,10 +1,8 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
 using namespace std;
-int main() {
+
+int main()
+{
     int x, y;
     cin >> x >> y;
     int tambah = x + y;
@@ -16,7 +14,4 @@ int main() {
     cout << "Hasil dari Pengurangan " << x << " dengan " << y << " adalah " << kurang << endl;
     cout << "Hasil dari Perkalian " << x << " dengan " << y << " adalah " << kali << endl;
     cout << "Hasil dari Pembagian " << x << " dengan " << y << " adalah " << bagi << endl;
-
-    return 0;
 }
-
